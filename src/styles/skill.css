@@ -1,9 +1,11 @@
-
+.skills{
+    height: 100vh;
+}
 .skill{
     max-width: 750px;
     width: 90%;
     margin:20px auto;
-    border:2px dotted rgb(17, 104, 104);
+    border:1px dotted rgb(17, 104, 104);
     padding: 0 20px;
 }
 .title{
@@ -25,7 +27,7 @@
     max-width: 850px;
     margin:30px auto;
     padding:5px;
-    background-color: rgb(17, 104, 104);
+    background-color: rgb(11, 58, 58);
     text-align: center;
 }
 ul {

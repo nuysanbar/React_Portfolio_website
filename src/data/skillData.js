@@ -1,12 +1,12 @@
 const Data=[
     {
         id:0,
-        title:'Frontend Tools',
+        title:'Front-end',
         details:'HTML, CSS, Bootsrap, Javascript and React js'
     },
     {
         id:1,
-        title:'Backend Tools',
+        title:'Back-end',
         details:'Node js, pthon, c++, Java, PHP and SQL'
     },
     {

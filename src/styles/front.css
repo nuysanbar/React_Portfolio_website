@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+    color:rgb(252, 147, 49);
+}
+.frontContainer{
+    height: 75vh;
+}
+.front{
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    width: 100%;
+    margin: 20vh auto 0;
+    text-align: center;
+}
+.frontImage{
+    width: 190px;
+    height: 200px;
+    border-radius: 200px;
+    padding:10px;
+    border:2px solid rgb(17, 104, 104);
+}
+.frontInfo{
+    margin-right: 20px;
+    font-weight: bold;
+}
+.border{
+    height: 40px;
+    width: 95%;
+    max-width: 900px;
+    border:2px solid rgb(17, 104, 104);
+    margin:0 auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top: none;
+}
+.smileEmoji{
+    color:rgb(15, 163, 163);
+}

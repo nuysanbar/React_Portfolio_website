@@ -1,0 +1,42 @@
+
+.skill{
+    max-width: 750px;
+    width: 90%;
+    margin:20px auto;
+    border:2px dotted rgb(17, 104, 104);
+    padding: 0 20px;
+}
+.title{
+    position: relative;
+}
+.pm{
+    position: absolute;
+    right: 0;
+}
+.pm:hover{
+    color:rgb(247, 201, 115);
+}
+.detail{
+    border-top: 1px solid rgb(17, 104, 104);
+    padding-top: 10px;
+}
+.majorTitle{
+    width: 100%;
+    max-width: 850px;
+    margin:30px auto;
+    padding:5px;
+    background-color: rgb(17, 104, 104);
+    text-align: center;
+}
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022"; 
+    color: rgb(17, 104, 104); 
+    font-weight:900;
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em;
+}

@@ -3,6 +3,12 @@ import './styles/front.css';
  export default function Front(){
     return(
         <div className='frontContainer'>
+            <div className='nav'>
+                <span><a href='#front'>Home</a></span>
+                <span><a href='#skills'>Skill</a></span>
+                <span><a href='#projects'>Projects</a></span>
+                <span><a href='#contacts'>Contact</a></span>
+            </div>
             <div className='front'>
             <div className='frontInfo'>
                 <h3>Hello , I am Nuysanbar</h3>

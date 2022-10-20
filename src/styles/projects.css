@@ -25,6 +25,9 @@
     text-align: center;
     border-radius: 10px;
 }
+.project a:hover{
+    background-color: rgb(76, 146, 123);
+}
 .majorTitle{
     width: 100%;
     max-width: 920px;

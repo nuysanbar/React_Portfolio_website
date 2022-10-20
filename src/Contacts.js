@@ -2,6 +2,8 @@
 
  export default function  Contacts(){
     return(
-        <h3>Contacts</h3>
+        <div id="contacts">
+            <h3>Contacts</h3>
+        </div>
     )
  }

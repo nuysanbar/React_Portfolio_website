@@ -2,7 +2,7 @@
 import './styles/projects.css';
  export default function Projects(){
     return(
-        <div className='skills'>
+        <div className='skills' id='projects'>
             <h1 className='majorTitle'>Projects</h1>
             <div className='projectContainer'>
                 {Data.map((data)=>{
@@ -10,7 +10,7 @@ import './styles/projects.css';
                         <div key={data.title} className='project'>
                             <img src={data.src} alt={data.title} />
                             <h2>{data.title}</h2>
-                            <a href={data.link}>Code</a>
+                            <a href={data.link}>&lt; Code /&gt;</a>
                         </div>
                     )
                 })}

@@ -4,8 +4,21 @@ body{
     background-color: black;
     color:rgb(252, 147, 49);
 }
+.nav{
+    max-width: 500px;
+    width: 100%;
+    margin:30px auto 0;
+}
+.nav a{
+    text-decoration: none;
+    padding:10px 30px;
+    color: rgb(26, 148, 148);
+}
+.nav a:hover{
+    background-color: rgb(145, 196, 196);
+}
 .frontContainer{
-    height: 75vh;
+    height: 100vh;
 }
 .front{
     display: flex;

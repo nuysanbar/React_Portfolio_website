@@ -5,7 +5,7 @@ import {AiFillPlusCircle,AiFillMinusCircle} from 'react-icons/ai';
  export default function Skills(){
     const [expand,setExpand]=useState(null);
     return(
-        <div className='skills'>
+        <div className='skills' id='skills'>
             <h1 className='majorTitle'>Skills</h1>
             {
                 Data.map((skill)=>{
